@@ -1,6 +1,6 @@
-const { toyService } = require("../usecases/toys");
-const { makePostToy } = require("./toy/post-toy");
-const { makeGetToy } = require("./toy/get-toy");
+const { toyService } = require("../../usecases/toys");
+const { makePostToy } = require("./post-toy");
+const { makeGetToy } = require("./get-toy");
 
 const postToy = makePostToy({ addToy: toyService.addToy });
 const getToy = makeGetToy({ getToy: toyService.getToy });

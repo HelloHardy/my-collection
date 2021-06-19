@@ -1,5 +1,5 @@
 const express = require("express");
-const { toyController } = require('./controllers');
+const { toyController } = require('./controllers/toy');
 
 const app = express();
 
